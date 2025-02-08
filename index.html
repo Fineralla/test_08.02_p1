@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOTLK</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/adaptive.css">
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__logo logo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">Wotlk</h2>
+        <div class="menu">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+            <div class="header__menu-list menu-list">
+                <p><a href="#banner" class="menu-item">Main info</a></p>
+                <p><a href="#about" class="menu-item">About us</a></p>
+                <p><a href="#contact" class="menu-item">Contact Us</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="banner__main">
+            
+            <div class="banner__info">
+                <h2 class="banner__info-heading">You'r best gaming experience</h2>
+                <p class="banner__info-subheading">Only in your city</p>
+                <div class="banner__info-list">
+                    <p class="banner__info-list-item">the most budget <span class="banner__info-list-item_prata">$20</span> per hour</p>
+                    <p class="banner__info-list-item"><span class="banner__info-list-item_prata">$1500,</span>minimum cost of computers</p>
+                    <p class="banner__info-list-item">fastest servers <span class="banner__info-list-item_prata">600 Mbps</span></p>
+                </div>
+                <a class="banner__info-list-btn white-btn btn">Sign up</a>
+            </div>
+        </div>
+        <div class="banner__img"></div>
+    </section>
+    <section id="about" class="about">
+        <div class="about__left-img"></div>
+        <div class="about__center">
+            <div class="about__center-text">
+                <p class="about__center-text-item">Learn about the latest tech trends and innovations</p>
+                <p class="about__center-text-item">Our club provides a supportive environment for learning and teamwork</p>
+                <p class="about__center-text-item">We offer workshops for all skill levels, from beginners to experts</p>
+                <p class="about__center-text-item">Don't miss out on our special events and guest speakers!</p>
+            </div>
+            <a href="#" class="about__center-btn btn white-btn">Sign up</a>
+        </div>
+        <div class="about__right-img"></div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact__wrapper">
+            <form class="contact__form" action="#">
+                <h2 class="contact__form-heading">Become a better player</h2>
+                <div class="contact__form-inputs">
+                    <input class="contact__form-item contact__form-item-block" type="text" placeholder="Name" name="name">
+                    <input class="contact__form-item contact__form-item-block" type="email" placeholder="E-mail" name="email">
+                </div>
+                <div class="contact__form-item contact__form-checkbox-wrapper">
+                    <input class="contact__form-item-checkbox" type="checkbox" name="privacy" id="privacy">
+                    <label class="contact__form-item-checkboxLabel" for="privacy">I accept Privacy policy</label>
+                </div>
+                <button class="contact__form-btn black-btn btn" type="submit">Submit form</button>
+            </form>
+            <div class="contact__img">
+                <img class="contact__img-lich" src="./img/lich.png" alt="Lich king">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <nav class="footer__menu-list menu-list">
+            <p><a href="#banner" class="menu-item">Main info</a></p>
+            <p><a href="#about" class="menu-item">About us</a></p>
+            <p><a href="#contact" class="menu-item">Contact Us</a></p>
+        </nav>
+        <div class="footer__common">
+            <h1 class="footer__logo logo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">Wotlk</h1>
+            <div class="footer__messengers">
+                <a href="" class="footer__mesenger footer__mesenger-insta"></a>
+                <a href="" class="footer__mesenger footer__mesenger-tiktok"></a>
+                <a href="" class="footer__mesenger footer__mesenger-linkedin"></a>
+                <a href="" class="footer__mesenger footer__mesenger-facebook"></a>
+                <a href="" class="footer__mesenger footer__mesenger-telegram"></a>
+                <a href="" class="footer__mesenger footer__mesenger-youtube"></a>
+            </div>
+            <a href="" class="footer__btn btn white-btn">Sign up</a>
+        </div>
+        <div class="footer__copyrights">
+            <p class="footer__copyright-1">&copy; 2024, Copyright.</p>
+            <p class="footer__copyright-2">Privacy policy</p>
+            <p class="footer__copyright-3">Terms of Use</p>
+        </div>
+        
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
